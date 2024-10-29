@@ -42,7 +42,7 @@ export function TodoList() {
         <section className="task-list-container">
             <h1>Lista de Tarefas</h1>
             <div>
-                <p><strong>Total de tarefas</strong>{tasks.length}</p>
+                <p><strong>Total de tarefas </strong>{tasks.length}</p>
                 <p><strong>Tarefas pendentes </strong>{tasks.filter(t => t.isComplete === false).length}</p>
                 <p><strong>Tarefas completas </strong>{tasks.filter(t => t.isComplete === true).length}</p>
 
